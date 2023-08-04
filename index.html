@@ -3,10 +3,10 @@
 <head>
     <title>Human-Focused Radical Cyber Security</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <style>
+        <style>
         .card {
-            background-color: #6c757d;
-            color: white;
+            background-color: #f8f9fa;
+            color: black;
         }
         .final-paragraph {
             font-size: 1.2em;
@@ -19,6 +19,21 @@
         }
         .navbar-brand {
             font-size: 1.5em;
+        }
+
+        /* Dark mode */
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #343a40;
+                color: white;
+            }
+            .navbar, .card {
+                background-color: #6c757d;
+                color: white;
+            }
+            .development-notice {
+                color: #f8f9fa;
+            }
         }
     </style>
 </head>
